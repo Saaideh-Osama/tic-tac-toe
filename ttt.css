@@ -1,0 +1,329 @@
+#board{
+    display:flex; 
+height: 800px;
+width: 800px;
+flex-wrap: wrap;
+    border-bottom: 2px  solid       black;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 4vw;
+}
+button{border: 0px;}
+.row1,.row2,.row3,.row4{
+    display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+    height: 200px;
+    width: 800px;
+}
+.row1{
+   background-color: transparent;
+    border-bottom: 2px solid black;
+}
+.row2{
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}   
+.row3{
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+.row4{
+    border-bottom: 0px solid rgb(255, 255, 255);
+    background-color: transparent;
+}   
+.cell{
+    display: flex;  
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 200px;
+    width: 200px;
+    border-right: 2px solid black;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+#cell4{
+    border-right: 0px solid rgb(255, 255, 255);
+}
+#X{
+    font-size: 6rem;
+}
+
+
+button:active{
+visibility: hidden;
+}
+
+
+.X,.Y{
+    visibility: visible;
+    font-size: 7rem;
+}
+
+#X1{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 6vh;
+    left:31vw;
+    z-index: -1;
+}
+#X5{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 27vh;
+    left:31vw;
+    z-index: -1;
+}
+    #X9{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 47vh;
+    left:31vw;
+    z-index: -1;
+}
+    #X13{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 70vh;
+    left:31vw;
+    z-index: -1;
+}
+#X2{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 6vh;
+    left:42vw;
+    z-index: -1;
+}
+#X6{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 27vh;
+    left:42vw;
+    z-index: -1;
+}
+    #X10{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 47vh;
+    left:42vw;
+    z-index: -1;
+}
+    #X14{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 70vh;
+    left:42vw;
+    z-index: -1;
+}
+#X3{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 6vh;
+    left:53vw;
+    z-index: -1;
+}
+#X7{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 27vh;
+    left:53vw;
+    z-index: -1;
+}
+    #X11{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 47vh;
+    left:53vw;
+    z-index: -1;
+}
+    #X15{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 70vh;
+    left:53vw;
+    z-index: -1;
+}
+#X4{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 6vh;
+    left:63vw;
+    z-index: -1;
+}
+#X8{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 27vh;
+    left:63vw;
+    z-index: -1;
+}
+    #X12{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 47vh;
+    left:63vw;
+    z-index: -1;
+}
+    #X16{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 70vh;
+    left:63vw;
+    z-index: -1;
+}
+
+
+
+#Y1{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 16vh;
+    left:31vw;
+    z-index: -1;
+}
+#Y5{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 37vh;
+    left:31vw;
+    z-index: -1;
+}
+    #Y9{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 58vh;
+    left:31vw;
+    z-index: -1;
+}
+    #Y13{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 80vh;
+    left:31vw;
+    z-index: -1;
+}
+#Y2{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 16vh;
+    left:42vw;
+    z-index: -1;
+}
+#Y6{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 38vh;
+    left:42vw;
+    z-index: -1;
+}
+    #Y10{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 59vh;
+    left:42vw;
+    z-index: -1;
+}
+    #Y14{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 80vh;
+    left:42vw;
+    z-index: -1;
+}
+#Y3{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 16vh;
+    left:53vw;
+    z-index: -1;
+}
+#Y7{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 37vh;
+    left:53vw;
+    z-index: -1;
+}
+    #Y11{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 57vh;
+    left:53vw;
+    z-index: -1;
+}
+    #Y15{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 80vh;
+    left:53vw;
+    z-index: -1;
+}
+#Y4{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 16vh;
+    left:63vw;
+    z-index: -1;
+}
+#Y8{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 37vh;
+    left:63vw;
+    z-index: -1;
+}
+    #Y12{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 57vh;
+    left:63vw;
+    z-index: -1;
+}
+    #Y16{
+    width:   7rem;
+    height: 7rem;
+    position: absolute;
+    top: 80vh;
+    left:63vw;
+    z-index: -1;
+}
+
+.mark{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(39, 193, 240);
+    font-size: 4REM;
+}
